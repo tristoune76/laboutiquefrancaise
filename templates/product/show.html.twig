@@ -1,22 +1,26 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Nos produits{% endblock %}
+{% block title %}{{ product.name }}{% endblock %}
 
 {% block content %}
     <h1>
-        Nos produits
+        {{ product.name}}
     </h1>
-    <div class="row product-container">
-        {% for product in products%}
-            <div class="col-md-4">
-                <div class="product-item text-center">
-                    <img src="/uploads/{{ product.illustration }}" alt="{{ product.illustration }}" class="img-fluid">
-                    <h5>{{ product.name }}</h5>
-                    <span class="product-subtitle">{{ product.subtitle }}</span>
-                    <span class="product-price">{{ (product.prix /100)|number_format(2, ',', '.') }} €</span>
-                </div>
-            </div>
-        {% endfor %}
+    <div class="row">
+        <div class = "col-md-5">
+            <img src="/uploads/{{ product.illustration }}" alt="{{ product.illustration }}" class="img-fluid">
+        </div>
+        <div class = "col-md-7 m-auto">
+            <h3>{{ product.name }}</h3>
+            <p>{{  product.subtitle }}</p>
+            <span class = "product-page">{{ (product.prix /100)|number_format(2, ',', '.') }} €</span>
+            <hr>
+            <p>
+                {{ product.description }}
+            </p>
+            <a href="{{ path('add-to-cart', {'id': product.id}) }}" class="btn btn-primary">Ajoutez au panier</a>
+
+        </div>
     </div>
 
 {% endblock %}
