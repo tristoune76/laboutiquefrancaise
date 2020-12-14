@@ -20,69 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af9367a7-8d53-4b21-9805-d8ac4571fe78" name="Default Changelist" comment="commit 1">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laboutiquefrancaise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201124155003.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201203181434.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201203183110.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/moins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/BAR02486_1,barts,bonnet-pompon-enfant-bleu.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/PAS63708-17,passigatti,echarpe-rouge-passigatti.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/bonnet1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/bonnet2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/echarpe1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/echarpe2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/lbo_192060_FAB_SHALBO-843_20190930T162820_02.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/manteau1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/manteau2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/tshirt1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/uploads/files/tshirt2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classe/Search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AccountAdresseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/CarrierCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/CategoryCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/ProductCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/UserCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Carrier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/OrderDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/EasyAdminSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AdressesType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/SearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CarrierRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/OrderDetailsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/OrderRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/adresse.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/adresse_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account_adresse/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/order/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201209101201.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201209101428.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/OrderType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/add.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b08b8922-8f00-4d34-91f4-fee2161caa5f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b08b8922-8f00-4d34-91f4-fee2161caa5f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/laboutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/laboutiquefrancaise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccountAdresseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountAdresseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Adresse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Adresse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Carrier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Carrier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AdressesType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AdressesType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/adresse_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/adresse_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/order/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,12 +183,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/product" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public/uploads" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/product" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -260,6 +212,9 @@
       <workItem from="1607003259453" duration="3699000" />
       <workItem from="1607250372337" duration="55000" />
       <workItem from="1607250441130" duration="2659000" />
+      <workItem from="1607286137933" duration="368000" />
+      <workItem from="1607342570318" duration="7987000" />
+      <workItem from="1607508666925" duration="8940000" />
     </task>
     <servers />
   </component>
@@ -282,53 +237,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit 1" />
     <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="700" y="378" width="509" height="280" key="#Composer" timestamp="1606079669485">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="700" y="378" width="509" height="280" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1606079669485" />
-    <state x="2505" y="193" width="740" height="663" key="#Inspections" timestamp="1606481248503">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="585" y="186" width="740" height="663" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1606157507124" />
-    <state x="2505" y="193" key="#Inspections/0.529.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606481248503" />
-    <state x="414" y="170" width="1180" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606912083532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606912083532" />
-    <state x="2844" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1569@0.0.3840.1569" timestamp="1606232826386" />
-    <state x="2660" y="99" width="1180" height="698" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.529.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606775672286" />
-    <state x="3194" y="165" width="655" height="596" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606774363834">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2547" y="240" width="655" height="596" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.3840.1569@0.0.3840.1569" timestamp="1606427126693" />
-    <state x="3194" y="165" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.529.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606774363834" />
-    <state x="690" y="220" width="530" height="596" key="FileChooserDialogImpl" timestamp="1606912587723">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="220" width="530" height="596" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606912587723" />
-    <state width="304" height="551" key="HiddenNamespacesPopup" timestamp="1606232925715">
-      <screen x="0" y="0" width="3840" height="1569" />
-    </state>
-    <state width="304" height="551" key="HiddenNamespacesPopup/0.0.3840.1569@0.0.3840.1569" timestamp="1606232925715" />
-    <state x="2324" y="172" width="1030" height="646" key="IDE.errors.dialog" timestamp="1606235217901">
-      <screen x="0" y="0" width="3840" height="1569" />
-    </state>
-    <state x="2324" y="172" width="1030" height="646" key="IDE.errors.dialog/0.0.3840.1569@0.0.3840.1569" timestamp="1606235217901" />
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2" timestamp="1606416374565">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="455" y="192" width="1000" height="652" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606416374565" />
-    <state x="2460" y="243" key="run.anything.popup" timestamp="1606829682205">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2460" y="243" key="run.anything.popup/0.529.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606829682205" />
-    <state x="1080" y="153" width="840" height="686" key="search.everywhere.popup" timestamp="1607027588030">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1080" y="153" width="840" height="686" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607027588030" />
-    <state x="2459" y="231" width="840" height="1034" key="search.everywhere.popup/0.0.3840.1569@0.0.3840.1569" timestamp="1606429876625" />
-    <state x="3000" y="159" width="840" height="712" key="search.everywhere.popup/0.529.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606775303039" />
   </component>
 </project>

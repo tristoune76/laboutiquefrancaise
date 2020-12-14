@@ -47,3 +47,25 @@ body{
     margin: auto;
 }
 
+.form-check{
+    /*background: #dfeaff;*/
+    /*padding : 20px 65px;*/
+    margin-top :7px;
+
+}
+
+.col-form-label{
+    font-weight: bold;
+}
+/*.order-summary{*/
+/*    background: #dfeaff;*/
+/*    padding: : 20px 65px;*/
+/*    margin-top: 22px;*/
+/*}*/
+
+.product-summary{
+    /*background: #dfeaff;*/
+    /*padding : 0px 0px;*/
+    margin-top :7px;
+}
+
